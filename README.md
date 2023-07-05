@@ -1,1 +1,3 @@
-# Portfólio Pessoal - Angelina Melo 👨‍💻
+# Portfólio Pessoal - Angelina Melo 👩🏽‍💻
+
+Portfolio em construção... 🚧
