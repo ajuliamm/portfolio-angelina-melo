@@ -6,9 +6,12 @@ import styled from "styled-components";
 import Header from './components/Hearder/Header';
 import Home from './Pages/Home/Home';
 import AboutMe from './Pages/AboutMe/AboutMe';
+import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
+
 function App() {
-  const [ theme, setTheme ] = useState('light');
+
+  const [ theme, setTheme ] = useState('dark');
 
   useEffect(() => {
     const localTheme = window.localStorage.getItem("theme");
@@ -22,7 +25,8 @@ function App() {
             <Header theme={theme} setTheme={setTheme}/>
             <Home/>
             <AboutMe/>
-            <Contact/>
+            <Projects/>
+            <Contact theme={theme}/>
           </Container>
         </Fragment>
       </ThemeProvider>

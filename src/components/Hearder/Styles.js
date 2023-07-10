@@ -16,7 +16,7 @@ export const H3 = styled.h3`
     
 `;
 export const Navbar = styled.nav`
-    display: none;
+  
    @media(min-width: 650px) {
     display: block;
    }
@@ -49,6 +49,7 @@ export const Button = styled.button`
     width: 35px;
     height: 35px;
     border: none;
+    background-color: ${props => props.color};
    
 &.light{
     border-radius: 10px;
@@ -58,4 +59,11 @@ export const Button = styled.button`
     border-radius: 10px;
 }
     
+`;
+
+export const Icon = styled.i`
+    color:#A19CA9;
+    font-size: 1.8rem;
+    margin-top: 30px;
+
 `;

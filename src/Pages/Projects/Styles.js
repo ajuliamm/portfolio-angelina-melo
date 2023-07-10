@@ -1,28 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    display: grid;
-    height:100vh;
+    padding: 30px 0;
+    display: flex;
+    min-height: 100vh;
     width: 100%;
-    justify-items: center;
-    grid-template-areas: "img"
-                        "Infos";
+    flex-direction:column ;
+    align-items: center;
+    gap: 50px; 
     
-    gap: 10px;
-    grid-template-columns:100%;
 
     
-    @media (min-width:640px) {
-        grid-template-areas: "Infos img";
-        gap: 3vw;
-        align-items: center;   
-        grid-template-columns:50% 50%;
-
-    
+    @media (min-width:640px) {      
                         
     }
     @media (min-width:990px) {
-        gap: 10vw;
     }
     
 `;
@@ -41,8 +33,10 @@ export const Img = styled.img`
 `;
 
 export const Div = styled.div`
-    grid-area: Infos;
-    @media (min-width:640px) {
+    display: flex ;
+    flex-direction: column;
+    gap: 80px;
+@media (min-width:640px) {
         justify-self: end;
     }
     
@@ -50,8 +44,8 @@ export const Div = styled.div`
 
 export const Title = styled.h1`
     font-weight: 900;
-    font-size: 4.0rem;
-    letter-spacing: -2.2px;
+    font-size: 2.0rem;
+    color: #71559A ;
 
 `;
 

@@ -1,5 +1,6 @@
 import React from "react";
-import { HeaderContainer, H3, Navbar, Ul, Li, Div, Button, Menu, Line, MenuHamb, MenuBg } from "./Styles";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import { HeaderContainer, H3, Navbar, Ul, Li, Div, Button, Icon } from "./Styles";
 
 const Header = ({theme, setTheme}) => {
     const toggleTheme = (themeChoose) => {
@@ -24,11 +25,18 @@ const Header = ({theme, setTheme}) => {
                 </Ul>
             </Navbar>
         
-            
+            {theme === 'light' 
+            ?
             <Div>
-                <Button className="light" onClick={()=>toggleTheme("light")}>L</Button>
-                <Button className="dark" onClick={()=>toggleTheme("dark")}>D</Button>
+                <Button  color='#7F49DF' className="light" onClick={()=>toggleTheme("light")}><Icon className="bi bi-sun-fill"></Icon></Button>
+                <Button color='#555555'  className="dark" onClick={()=>toggleTheme("dark")}><Icon className="bi bi-moon"></Icon></Button>
             </Div>
+            :
+            <Div>
+                <Button color='#555555'  className="light" onClick={()=>toggleTheme("light")}><Icon className="bi bi-sun"></Icon></Button>
+                <Button color='#7F49DF' className="dark" onClick={()=>toggleTheme("dark")}><Icon className="bi bi-moon-fill"></Icon></Button>
+            </Div>
+            }
         </HeaderContainer>
     )
 }

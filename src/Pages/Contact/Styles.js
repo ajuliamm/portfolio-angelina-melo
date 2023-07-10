@@ -74,3 +74,24 @@ export const Text2 = styled.p`
     font-size: 1.8rem;
     margin-top: 5px;
 `;
+
+export const Line = styled.hr`
+
+    background: #71559A ;
+    height: 2px;
+    border: none;
+`;
+export const IconLink = styled.a`
+    
+
+`;
+
+export const Icon = styled.img`
+    width: 70px;
+
+`;
+export const DivIcons =  styled.div`
+    display: flex;
+    gap:30px;
+    margin-top: 50px;
+`;
