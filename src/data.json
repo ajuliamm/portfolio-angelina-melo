@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Heaven Burger",
+        "description": "App desenvolvida para o gerenciamento de uma hamburgueria",
+        "website": "https://heaven-burger-ajuliamm.vercel.app/",
+        "color": "#E99331",
+        "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/88bd474f-0e6e-4af7-99d1-809b58858caf", 
+        "repository": "https://github.com/ajuliamm/heaven-burger"
+    },
+    {
+        "name": "Cinemix",
+        "description": "Plataforma desenvolvida para explorar e descobrir informações sobre filmes e séries",
+        "website": "https://cinemix-ajuliamm.vercel.app/",
+        "color": "#850DB9",
+        "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/60469ecf-8329-43e4-8fbb-bf24bc5fa7e0", 
+        "repository": "https://github.com/ajuliamm/cinemix"
+    },
+    {
+        "name": "Code Girls",
+        "description": "Plataforma desenvolvida é uma rede social responsiva destinada a unir mulheres na tecnologias",
+        "website": "https://code-girlsio.web.app/",
+        "color": "#C53F3F",
+        "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/93566b38-b3e8-4f8f-b289-21dc34c928c0", 
+        "repository": "https://github.com/ajuliamm/SAP009-social-network"
+    },
+    {
+        "name": "Criptografo.",
+        "description": "Codificador de mensagem online.",
+        "website": "https://criptografo.vercel.app/",
+        "color": "#FFE261",
+        "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/411cecea-def9-4d2c-862d-532db2881b64", 
+        "repository": "https://github.com/ajuliamm/SAP009-cipher"
+    }, 
+    {
+        "name": "Mardown Links",
+        "description": "Biblioteca instalável usando NodeJs que ler arquivos md e encontra links fazendo suas devidas validações",
+        "website": "https://www.npmjs.com/package/md-links-ajuliamm",
+        "color": "#0FB165",
+        "img": "https://github.com/ajuliamm/SAP009-md-links/assets/93016620/26705886-75af-4fd9-92ec-92412a1581b9", 
+        "repository": "https://github.com/ajuliamm/SAP009-md-links"
+    }
+]
