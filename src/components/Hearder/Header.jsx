@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { HeaderContainer, H3, Navbar, Ul, Li, Div, Button, Icon } from "./Styles";
+import { HeaderContainer, H3, Navbar,  Link, Div, Button, Icon, Span } from "./Styles";
 
 const Header = ({theme, setTheme}) => {
     const toggleTheme = (themeChoose) => {
@@ -13,16 +13,14 @@ const Header = ({theme, setTheme}) => {
         }
       };
     return(
-        <HeaderContainer>
-            <H3>ANGELINAMELO</H3>
+        <HeaderContainer color={theme === "light"? "#fff" : "#000"}>
+            <H3>ANGELINA<Span>MELO</Span></H3>
                          
-            <Navbar>
-                <Ul>
-                    <Li>Home</Li>
-                    <Li>Sobre mim</Li>
-                    <Li>Projetos</Li>
-                    <Li>Contato</Li>
-                </Ul>
+            <Navbar>             
+                    <Link href="#" color={theme === "dark"? "#fff" : "#000"}>Home</Link>
+                    <Link href="#about" color={theme === "dark"? "#fff" : "#000"}>Sobre mim</Link>
+                    <Link href="#projects" color={theme === "dark"? "#fff" : "#000"}>Projetos</Link>
+                    <Link href="#contact" color={theme === "dark"? "#fff" : "#000"}>Contato</Link>             
             </Navbar>
         
             {theme === 'light' 

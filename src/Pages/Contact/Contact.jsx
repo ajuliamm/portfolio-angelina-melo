@@ -13,7 +13,7 @@ import GithubWhite from "../../assets/github-white.svg"
 const Contact = ({theme}) => {
    
     return(
-        <Container>
+        <Container id="contact">
             <Img src={Foto}/>
             <Div>               
                 <Title>CONTATOS</Title>
@@ -26,7 +26,7 @@ const Contact = ({theme}) => {
                 ? <DivIcons>
                    <IconLink target="_blank" href="https://github.com/ajuliamm"> <Icon src={GithubPurple}/></IconLink>
                    <IconLink target="_blank" href="https://www.linkedin.com/in/angelinamelo/"> <Icon src={InPurple}/> </IconLink>  
-                   <IconLink target="_blank" href=""> <Icon src={MsgPurple}/> </IconLink> 
+                   <IconLink target="_blank" href="mailto:angelinajuliafmm@gmail.com"> <Icon src={MsgPurple}/> </IconLink> 
                 </DivIcons>
                 : <DivIcons>
                    <IconLink target="_blank" href="https://github.com/ajuliamm"> <Icon src={GithubWhite}/></IconLink>                   

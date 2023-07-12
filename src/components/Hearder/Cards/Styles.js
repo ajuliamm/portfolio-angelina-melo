@@ -62,6 +62,12 @@ export const Img = styled.img`
     
 `;
 
+export const DivFront = styled.div`
+    width: 100%;
+    height: 100%;
+    position: absolute;
+`;
+
 export const Div = styled.div`
 
     &.text{
@@ -78,7 +84,31 @@ export const Div = styled.div`
         width: 300px;
         height: 400px;
         border-radius: 80px;
+        position: relative;
     }
+    
+`;
+export const DivBack = styled.div`
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 80px;
+    box-shadow: 0 0px 10px 0px #fff;
+    
+
+    ${Div}:hover & {
+        visibility: visible;
+        background-color: ${props => props.color};
+        transition: background-color 1s linear;
+        
+    }
+    
     
 `;
 
@@ -91,12 +121,12 @@ export const Title = styled.h1`
 
 
 export const Text1 = styled.p`
-    font-size: 1.6rem;
-
+    font-size: 2rem;
+    font-weight: 900;
     font-family: 'Jura', sans-serif;
-    -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: #000;
-    ;
+    color: #fff;   
+    padding: 0 20px;
+    
 
 `;
 

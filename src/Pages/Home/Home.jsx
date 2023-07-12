@@ -5,7 +5,7 @@ import { Container, Img ,Div, Title, Subtitle, Text1, Text2 } from "./Styles";
 const Home = () => {
    
     return(
-        <Container>
+        <Container id="#">
             <Img src={Foto}/>
             <Div>
                 <Text1>Hello World! Eu sou...</Text1>
