@@ -1,14 +1,19 @@
 import React from "react";
 import Foto from "../../../assets/Picture2.png"
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { Container, Img ,Div, Title, Text1, Text2, Icon, Line, Link } from "./Styles";
+import { Container, Img ,Div, Title, Text1, Text2, Icon, Line, Link, DivFront, DivBack } from "./Styles";
 
 const CardProject = ({project}) => {
    
     return(
         <Container>
             <Div className="img">
-                <Img src={project.img}/>
+                <DivFront>
+                    <Img src={project.img}/>
+                </DivFront>
+                <DivBack color={project.color}>
+                    <Text1>{project.description}</Text1>
+                </DivBack>
             </Div>
             <Div className="text">
                 

@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const AboutMe = () => {
    
     return(
-        <Container>
+        <Container id="about">
             <Img src={Avatar}/>
             <Div className="text">
                 <Title>SOBRE MIM</Title>

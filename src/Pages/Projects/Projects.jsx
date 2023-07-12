@@ -6,12 +6,12 @@ import data from "../../data.json"
 const Projects = () => {
    
     return(
-        <Container>
+        <Container id="projects">
             <Title>ÚLTIMOS PROJETOS</Title>
             <Div>
                 {
                     data.map(project => (
-                        <CardProject project={project}/> 
+                        <CardProject project={project} key={project.id}/> 
 
                     ))
                 }

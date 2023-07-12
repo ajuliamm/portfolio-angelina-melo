@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-    height: 70px;
-    width: 100%;
+    height: 50px;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid rgb(25, 29, 37, 35%);
+    position: fixed;
+    top: 0;
+    background-color: ${props => props.color};
+    z-index: 1;
 
 `;
 
@@ -15,19 +19,22 @@ export const H3 = styled.h3`
 
     
 `;
+
+export const Span = styled.span`
+
+    color: #9D8731;
+`;
 export const Navbar = styled.nav`
+     display: flex;
+     gap: 2vw;
+
   
-   @media(min-width: 650px) {
-    display: block;
-   }
     
 `;
-export const Ul = styled.ul`
-    display: flex;
-    gap: 2vw;
-`;
-export const Li = styled.li`
-    list-style: none;
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: ${props => props.color};
     text-transform: uppercase;
     font-weight: 700;
 
