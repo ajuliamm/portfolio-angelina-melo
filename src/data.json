@@ -23,7 +23,7 @@
         "website": "https://code-girlsio.web.app/",
         "color": "#C53F3F",
         "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/93566b38-b3e8-4f8f-b289-21dc34c928c0", 
-        "repository": "https://github.com/ajuliamm/SAP009-social-network",
+        "repository": "https://github.com/ajuliamm/social-network",
         "id":3
     },
     {
@@ -32,7 +32,7 @@
         "website": "https://criptografo.vercel.app/",
         "color": "#9D8731",
         "img": "https://github.com/ajuliamm/heaven-burger/assets/93016620/411cecea-def9-4d2c-862d-532db2881b64", 
-        "repository": "https://github.com/ajuliamm/SAP009-cipher", 
+        "repository": "https://github.com/ajuliamm/criptografo", 
         "id":4
     }, 
     {
@@ -41,16 +41,16 @@
         "website": "https://www.npmjs.com/package/md-links-ajuliamm",
         "color": "#0FB165",
         "img": "https://github.com/ajuliamm/SAP009-md-links/assets/93016620/26705886-75af-4fd9-92ec-92412a1581b9", 
-        "repository": "https://github.com/ajuliamm/SAP009-md-links", 
+        "repository": "https://github.com/ajuliamm/md-links", 
         "id":5
     },
     {
         "name": "Data Lovers - pokemón",
         "description": "Plataforma desenvolvida para explorar e descobrir informações sobre personagens do jogo Pokémon, com opções de pesquisa e filtragem dos personagens.",
-        "website": "https://ajuliamm.github.io/SAP009-data-lovers/",
+        "website": "https://data-lovers-pokemon-mu.vercel.app/",
         "color": "#3F61A6",
         "img": "https://github.com/ajuliamm/SAP009-data-lovers/assets/93016620/b24b5d59-9edf-482d-ae94-73c43fcc6497", 
-        "repository": "https://github.com/ajuliamm/SAP009-data-lovers", 
+        "repository": "https://github.com/ajuliamm/data-lovers-pokemon", 
         "id":6
     }
 ]
