@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <Text1> Sou apaixonada por solucionar problemas e criar experiências online incríveis.  Meu objetivo é projetar e desenvolver sites e plataformas responsivas de alta qualidade, garantindo que meus clientes e usuários tenham a melhor experiência possível.</Text1>
             </Div>
             <Div className="tech">
-                <Title2>TECNOLOGIAS</Title2>
+                <Title2>TECHS & TOOLS</Title2>
                 <Div className="techs">
                 <DivTec>
                     <Icon className="js" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/>   
@@ -34,6 +34,22 @@ const AboutMe = () => {
                 <DivTec>
                     <Icon className="node" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"/>
                     <Text2>NODE</Text2>
+                </DivTec>
+                <DivTec>
+                    <Icon className="node" src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"/>
+                    <Text2>FIREBASE</Text2>
+                </DivTec>
+                <DivTec>
+                    <Icon className="node" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/>
+                    <Text2>FIGMA</Text2>                
+                </DivTec>
+                <DivTec>
+                    <Icon className="node" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"/>
+                    <Text2>JEST</Text2>                
+                </DivTec>
+                <DivTec >
+                    <Icon src="https://img.shields.io/badge/-333333?style=flat&logo=StyledComponents"/>
+                    <Text2 className="st">STYLED COMPONENTS</Text2>                
                 </DivTec>
                 </Div>
             </Div>
