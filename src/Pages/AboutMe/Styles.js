@@ -122,8 +122,8 @@ export const DivTec = styled.div`
     display: flex;
     align-items: center;
     gap: 5px;
-    width: 130px;
-    height: 40px;
+    min-width: 130px;
+    min-height: 40px;
     
     border-radius: 10px;
     border: 1.5px solid #7F49DF;
@@ -132,10 +132,10 @@ export const DivTec = styled.div`
         background-color: #7F49DF;
     }
     @media (min-width: 430px) {
-        width: 140px;
+        min-width: 140px;
     }
     @media (min-width: 990px) {
-        width: 160px;
+        min-width: 160px;
     }
     
 `;
@@ -170,6 +170,9 @@ export const Text2 = styled.p`
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 5px;
+    &.st{
+        font-size: 1rem;
+    }
     @media (min-width: 500px) {
         font-size: 1.4rem;
     }
@@ -183,6 +186,9 @@ export const Icon = styled.img`
     &.js{
         width: 30px;
         
+    }
+    &.icon{
+        width: 100%
     }
 
 `;
